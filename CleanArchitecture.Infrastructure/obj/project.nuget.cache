@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "q1fY72i3xBk71+aja5aic46v7kkZvG6NwwBywJFQHsCeNHNzWosmRTO8y59flZU92JvkRazug8VsID4G8iTW5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abelb\\Desktop\\ITLA\\CUATRIMESTRES\\CUATRIMESTRE IV\\II. PROGRAMACIÓN II\\MÓDULO VI - FINAL\\PROYECTO FINAL\\FINAL\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abelb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\abelb\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
