@@ -1,17 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "rPGXQm/t/XorL2O5um+A/VUvy3gBz1ZKYw1u8es2J5e0fHOxdnHz8cENb/LIY/Xt99xuCROaNMMXJHHNeHEEcA==",
-  "success": false,
+  "dgSpecHash": "t/68vx2FPRDKiHhfIttW86NP223AZYKAwWyoo3lG12rA5acw5Z8wX5ExkQyK9MKTL+PAoOEaP+pNV2/xF0FJCw==",
+  "success": true,
   "projectFilePath": "C:\\Users\\abelb\\Desktop\\ITLA\\CUATRIMESTRES\\CUATRIMESTRE IV\\II. PROGRAMACIÓN II\\MÓDULO VI - FINAL\\PROYECTO FINAL\\FINAL\\CleanArchitecture\\CleanArchitecture.API\\CleanArchitecture.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abelb\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\abelb\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
-    "C:\\Users\\abelb\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\abelb\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\abelb\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19269.1\\microsoft.data.sqlclient.1.0.19269.1.nupkg.sha512",
     "C:\\Users\\abelb\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.3\\microsoft.entityframeworkcore.3.1.3.nupkg.sha512",
     "C:\\Users\\abelb\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.3\\microsoft.entityframeworkcore.abstractions.3.1.3.nupkg.sha512",
     "C:\\Users\\abelb\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.3\\microsoft.entityframeworkcore.analyzers.3.1.3.nupkg.sha512",
-    "C:\\Users\\abelb\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.3\\microsoft.entityframeworkcore.design.3.1.3.nupkg.sha512",
     "C:\\Users\\abelb\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.3\\microsoft.entityframeworkcore.relational.3.1.3.nupkg.sha512",
     "C:\\Users\\abelb\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.3\\microsoft.entityframeworkcore.sqlserver.3.1.3.nupkg.sha512",
     "C:\\Users\\abelb\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.3\\microsoft.extensions.caching.abstractions.3.1.3.nupkg.sha512",
@@ -92,15 +91,5 @@
     "C:\\Users\\abelb\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\abelb\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.builderFrameworkCore.SqlServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.builderFrameworkCore.SqlServer",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
