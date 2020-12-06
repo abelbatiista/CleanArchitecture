@@ -2,10 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CleanArchitecture.Core.Interfaces;
+using CleanArchitecture.Infrastructure.Data;
+using CleanArchitecture.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,6 +30,14 @@ namespace CleanArchitecture.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            // CONNECTION TO DATABASE
+            services.AddDbContext<CleanArchitectureContext>(options => 
+                options.UseSqlServer(Configuration.GetConnectionString("CleanArchitecture"))
+            );
+
+            // Dependencies Resolution
+            services.AddTransient<IPostRepository, PostRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

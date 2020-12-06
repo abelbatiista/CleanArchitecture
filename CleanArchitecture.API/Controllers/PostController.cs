@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using CleanArchitecture.Core.Interfaces;
+using CleanArchitecture.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace CleanArchitecture.API.Controllers
 {
@@ -11,10 +9,24 @@ namespace CleanArchitecture.API.Controllers
     [ApiController]
     public class PostController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult GetPost()
+        private readonly IPostRepository _postRepository;
+        public PostController(IPostRepository postRepository)
         {
-            return Ok(null);
+            _postRepository = postRepository;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetPost()
+        {
+            var posts = await _postRepository.GetPosts();
+            return Ok(posts);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetPost(int id)
+        {
+            var post = await _postRepository.GetPost(id);
+            return Ok(post);
         }
     }
 }
