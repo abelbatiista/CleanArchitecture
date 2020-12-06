@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "25oG+nS2fvMfx3obEGENRUie2aw0zbcvIWvyFlAoP+tnFCoOpIMHVDb95oA781wJ4GfFuEWlOUyQvRaCG0T5sw==",
-  "success": false,
+  "dgSpecHash": "qFFHWh5G4ZMXMjtw4ZHcSgqL9vq1BUxhiqIxZrxwlrkiBXc0IMCYLZB/aw5bozOq2IbS5wpcQWWgSQUztxirJg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\abelb\\Desktop\\ITLA\\CUATRIMESTRES\\CUATRIMESTRE IV\\II. PROGRAMACIÓN II\\MÓDULO VI - FINAL\\PROYECTO FINAL\\FINAL\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abelb\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
@@ -117,33 +117,5 @@
     "C:\\Users\\abelb\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\abelb\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.builderFrameworkCore.Design. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.builderFrameworkCore.Design",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.builderFrameworkCore.SqlServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.builderFrameworkCore.SqlServer",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.builderFrameworkCore.Tools. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.builderFrameworkCore.Tools",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  "logs": []
 }

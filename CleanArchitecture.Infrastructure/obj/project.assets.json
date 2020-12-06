@@ -6191,9 +6191,6 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "CleanArchitecture.Core >= 1.0.0",
-      "Microsoft.builderFrameworkCore.Design >= 3.1.3",
-      "Microsoft.builderFrameworkCore.SqlServer >= 3.1.3",
-      "Microsoft.builderFrameworkCore.Tools >= 3.1.3",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -6242,22 +6239,6 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "Microsoft.builderFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[3.1.3, )"
-          },
-          "Microsoft.builderFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[3.1.3, )"
-          },
-          "Microsoft.builderFrameworkCore.Tools": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[3.1.3, )"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -6278,34 +6259,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.builderFrameworkCore.SqlServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.builderFrameworkCore.SqlServer",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.builderFrameworkCore.Design. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.builderFrameworkCore.Design",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.builderFrameworkCore.Tools. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.builderFrameworkCore.Tools",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }
